@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JFPingPongFirstViewController : UIViewController
+@interface JFLeaderboardViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
 @end

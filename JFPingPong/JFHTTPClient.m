@@ -1,13 +1,13 @@
 //
-//  JFPingPongSecondViewController.h
+//  JFHTTPClient.m
 //  JFPingPong
 //
 //  Created by John Figueiredo on 1/26/14.
 //  Copyright (c) 2014 John Figueiredo. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "JFHTTPClient.h"
 
-@interface JFPingPongSecondViewController : UIViewController
+@implementation JFHTTPClient
 
 @end

@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 John Figueiredo. All rights reserved.
 //
 
-#import "JFPingPongSecondViewController.h"
+#import "JFNewGameViewController.h"
 
-@interface JFPingPongSecondViewController ()
+@interface JFNewGameViewController ()
 
 @end
 
-@implementation JFPingPongSecondViewController
+@implementation JFNewGameViewController
 
 - (void)viewDidLoad
 {
