@@ -11,6 +11,7 @@
 #import <AFNetworking.h>
 #import "JFHTTPClient.h"
 #import <UIImageView+WebCache.h>
+#import "UIScrollView+SVPullToRefresh.h"
 
 static NSString * const kJFUserData = @"user";
 static NSString * const kJFLeaderboardURL = @"http://byliner-ping-pong.herokuapp.com/api/v1/leaderboard.json";
@@ -33,6 +34,10 @@ static NSString * const kJFLeaderboardURL = @"http://byliner-ping-pong.herokuapp
                              NSForegroundColorAttributeName :  [UIColor whiteColor]};
   
   [[UINavigationBar appearance] setTitleTextAttributes:settings];
+  
+  [self.table addPullToRefreshWithActionHandler:^{
+    [self viewWillAppear:NO];
+  }];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -41,9 +46,16 @@ static NSString * const kJFLeaderboardURL = @"http://byliner-ping-pong.herokuapp
     self.userArray = responseObject;
     NSLog(@"JSON: %@", self.userArray);
     [self.table reloadData];
+    [self.table.pullToRefreshView stopAnimating];
   } failure:^(NSURLSessionDataTask *task, NSError *error) {
     NSLog(@"Error: %@", error);
   }];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+  // setup pull-to-refresh
+  self.table.pullToRefreshView.arrowColor = [UIColor whiteColor];
+  self.table.pullToRefreshView.textColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning
