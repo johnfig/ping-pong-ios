@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2C6CCEDE6C1542208F8B82E6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB14A882E63D4D3EA5D0D8E6 /* libPods.a */; };
+		5C59F2D31897526D00FB4023 /* puzzle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C59F2D21897526D00FB4023 /* puzzle.png */; };
+		5C59F2D5189752F900FB4023 /* hang.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C59F2D4189752F900FB4023 /* hang.png */; };
 		5CC8C23D1895C6FD009E801F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC8C23C1895C6FD009E801F /* Foundation.framework */; };
 		5CC8C23F1895C6FD009E801F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC8C23E1895C6FD009E801F /* CoreGraphics.framework */; };
 		5CC8C2411895C6FD009E801F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC8C2401895C6FD009E801F /* UIKit.framework */; };
@@ -32,6 +34,7 @@
 		5CD9BFB318972B14001881CA /* controlpad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD9BFB218972B14001881CA /* controlpad.png */; };
 		5CD9BFB518972FA6001881CA /* pong-default-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD9BFB418972FA6001881CA /* pong-default-image.png */; };
 		5CD9BFB918973962001881CA /* robot.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD9BFB818973962001881CA /* robot.png */; };
+		5CDD0A6E1897592E00A8BD09 /* JFPingPong-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CDD0A6D1897592E00A8BD09 /* JFPingPong-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,11 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C59F2D21897526D00FB4023 /* puzzle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puzzle.png; sourceTree = "<group>"; };
+		5C59F2D4189752F900FB4023 /* hang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hang.png; sourceTree = "<group>"; };
 		5CC8C2391895C6FD009E801F /* JFPingPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFPingPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC8C23C1895C6FD009E801F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5CC8C23E1895C6FD009E801F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5CC8C2401895C6FD009E801F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		5CC8C2441895C6FD009E801F /* JFPingPong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JFPingPong-Info.plist"; sourceTree = "<group>"; };
 		5CC8C2461895C6FD009E801F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5CC8C2481895C6FD009E801F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5CC8C24A1895C6FD009E801F /* JFPingPong-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JFPingPong-Prefix.pch"; sourceTree = "<group>"; };
@@ -63,7 +67,7 @@
 		5CC8C2571895C6FE009E801F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5CC8C25D1895C6FE009E801F /* JFPingPongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFPingPongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC8C25E1895C6FE009E801F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5CC8C2661895C6FE009E801F /* JFPingPongTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JFPingPongTests-Info.plist"; sourceTree = "<group>"; };
+		5CC8C2661895C6FE009E801F /* Byliner PongTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Byliner PongTests-Info.plist"; sourceTree = "<group>"; };
 		5CC8C2681895C6FE009E801F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5CC8C26A1895C6FE009E801F /* JFPingPongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFPingPongTests.m; sourceTree = "<group>"; };
 		5CC8C278189619C2009E801F /* JFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFHTTPClient.h; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 		5CD9BFB218972B14001881CA /* controlpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controlpad.png; sourceTree = "<group>"; };
 		5CD9BFB418972FA6001881CA /* pong-default-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pong-default-image.png"; sourceTree = "<group>"; };
 		5CD9BFB818973962001881CA /* robot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robot.png; sourceTree = "<group>"; };
+		5CDD0A6D1897592E00A8BD09 /* JFPingPong-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JFPingPong-Info.plist"; sourceTree = "<group>"; };
 		B4EBAB5FD2FD46CD9E2AFA31 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		CB14A882E63D4D3EA5D0D8E6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -158,8 +163,8 @@
 		5CC8C2431895C6FD009E801F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5CDD0A6D1897592E00A8BD09 /* JFPingPong-Info.plist */,
 				5CC8C27C1896E3F3009E801F /* JFPingPong.xcdatamodeld */,
-				5CC8C2441895C6FD009E801F /* JFPingPong-Info.plist */,
 				5CC8C2451895C6FD009E801F /* InfoPlist.strings */,
 				5CC8C2481895C6FD009E801F /* main.m */,
 				5CC8C24A1895C6FD009E801F /* JFPingPong-Prefix.pch */,
@@ -179,7 +184,7 @@
 		5CC8C2651895C6FE009E801F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5CC8C2661895C6FE009E801F /* JFPingPongTests-Info.plist */,
+				5CC8C2661895C6FE009E801F /* Byliner PongTests-Info.plist */,
 				5CC8C2671895C6FE009E801F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -225,6 +230,8 @@
 		5CC8C2921897114C009E801F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5C59F2D4189752F900FB4023 /* hang.png */,
+				5C59F2D21897526D00FB4023 /* puzzle.png */,
 				5CD9BFB818973962001881CA /* robot.png */,
 				5CD9BFB418972FA6001881CA /* pong-default-image.png */,
 				5CD9BFB218972B14001881CA /* controlpad.png */,
@@ -335,8 +342,11 @@
 			files = (
 				5CC8C2581895C6FE009E801F /* Images.xcassets in Resources */,
 				5CD9BFB518972FA6001881CA /* pong-default-image.png in Resources */,
+				5CDD0A6E1897592E00A8BD09 /* JFPingPong-Info.plist in Resources */,
+				5C59F2D5189752F900FB4023 /* hang.png in Resources */,
 				5CC8C2471895C6FD009E801F /* InfoPlist.strings in Resources */,
 				5CD9BFB318972B14001881CA /* controlpad.png in Resources */,
+				5C59F2D31897526D00FB4023 /* puzzle.png in Resources */,
 				5CC8C2501895C6FD009E801F /* Main.storyboard in Resources */,
 				5CD9BFB918973962001881CA /* robot.png in Resources */,
 				5CD9BFB118972AD1001881CA /* trophy.png in Resources */,
@@ -530,7 +540,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JFPingPong/JFPingPong-Prefix.pch";
 				INFOPLIST_FILE = "JFPingPong/JFPingPong-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JFPingPong;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -544,7 +554,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JFPingPong/JFPingPong-Prefix.pch";
 				INFOPLIST_FILE = "JFPingPong/JFPingPong-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JFPingPong;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -565,8 +575,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "JFPingPongTests/JFPingPongTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "JFPingPongTests/Byliner PongTests-Info.plist";
+				PRODUCT_NAME = JFPingPongTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -584,8 +594,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JFPingPong/JFPingPong-Prefix.pch";
-				INFOPLIST_FILE = "JFPingPongTests/JFPingPongTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "JFPingPongTests/Byliner PongTests-Info.plist";
+				PRODUCT_NAME = JFPingPongTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};

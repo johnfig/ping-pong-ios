@@ -29,14 +29,10 @@ static NSString * const kJFLeaderboardURL = @"http://byliner-ping-pong.herokuapp
   self.table.delegate = self;
   self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.384 green:0.608 blue:0.710 alpha:1.0];
   NSDictionary *settings = @{
-                             NSFontAttributeName            :  [UIFont fontWithName:@"HelveticaNeue" size:50.0],
+                             NSFontAttributeName            :  [UIFont fontWithName:@"HelveticaNeue" size:20.0],
                              NSForegroundColorAttributeName :  [UIColor whiteColor]};
   
   [[UINavigationBar appearance] setTitleTextAttributes:settings];
-}
-
-- (UIStatusBarStyle)preferredStatusBarStyle {
-  return UIStatusBarStyleLightContent;
 }
 
 - (void)viewWillAppear:(BOOL)animated {

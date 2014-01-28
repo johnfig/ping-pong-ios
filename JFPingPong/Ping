@@ -1,0 +1,11 @@
+Unstaged changes after reset:
+M	JFPingPong.xcodeproj/project.pbxproj
+M	JFPingPong.xcodeproj/xcuserdata/johnfigueiredo.xcuserdatad/xcschemes/JFPingPong.xcscheme
+M	JFPingPong.xcworkspace/contents.xcworkspacedata
+M	JFPingPong.xcworkspace/xcuserdata/johnfigueiredo.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+M	JFPingPong/Base.lproj/Main.storyboard
+M	JFPingPong/JFLeaderboardViewController.m
+M	JFPingPong/JFNewGameViewController.m
+D	JFPingPong/JFPingPong-Info.plist
+M	JFPingPong/JFPingPongAppDelegate.m
+M	JFPingPong/Ping Pong-Info.plist
