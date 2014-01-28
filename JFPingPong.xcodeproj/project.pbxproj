@@ -38,7 +38,8 @@
 		5CDD0A7018975BDB00A8BD09 /* hangman.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CDD0A6F18975BDB00A8BD09 /* hangman.png */; };
 		5CDD0A741897608200A8BD09 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CDD0A731897608200A8BD09 /* cloud.png */; };
 		5CEBC74C1897933C000DBDF6 /* white-pill.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CEBC74B1897933C000DBDF6 /* white-pill.png */; };
-		5CEBC74E189793C2000DBDF6 /* selected-pill.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CEBC74D189793C2000DBDF6 /* selected-pill.png */; };
+		5CEBC75018979DC9000DBDF6 /* selected-pill.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CEBC74F18979DC9000DBDF6 /* selected-pill.png */; };
+		5CEBC75218979E2D000DBDF6 /* highlighted-pill.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CEBC75118979E2D000DBDF6 /* highlighted-pill.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,7 +92,8 @@
 		5CDD0A6F18975BDB00A8BD09 /* hangman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman.png; sourceTree = "<group>"; };
 		5CDD0A731897608200A8BD09 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
 		5CEBC74B1897933C000DBDF6 /* white-pill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-pill.png"; sourceTree = "<group>"; };
-		5CEBC74D189793C2000DBDF6 /* selected-pill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected-pill.png"; sourceTree = "<group>"; };
+		5CEBC74F18979DC9000DBDF6 /* selected-pill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected-pill.png"; sourceTree = "<group>"; };
+		5CEBC75118979E2D000DBDF6 /* highlighted-pill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "highlighted-pill.png"; sourceTree = "<group>"; };
 		B4EBAB5FD2FD46CD9E2AFA31 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		CB14A882E63D4D3EA5D0D8E6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -238,7 +240,8 @@
 		5CC8C2921897114C009E801F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5CEBC74D189793C2000DBDF6 /* selected-pill.png */,
+				5CEBC75118979E2D000DBDF6 /* highlighted-pill.png */,
+				5CEBC74F18979DC9000DBDF6 /* selected-pill.png */,
 				5CEBC74B1897933C000DBDF6 /* white-pill.png */,
 				5CDD0A731897608200A8BD09 /* cloud.png */,
 				5CDD0A6F18975BDB00A8BD09 /* hangman.png */,
@@ -353,7 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CC8C2581895C6FE009E801F /* Images.xcassets in Resources */,
-				5CEBC74E189793C2000DBDF6 /* selected-pill.png in Resources */,
+				5CEBC75018979DC9000DBDF6 /* selected-pill.png in Resources */,
 				5CD9BFB518972FA6001881CA /* pong-default-image.png in Resources */,
 				5CDD0A6E1897592E00A8BD09 /* JFPingPong-Info.plist in Resources */,
 				5CDD0A741897608200A8BD09 /* cloud.png in Resources */,
@@ -361,6 +364,7 @@
 				5CC8C2471895C6FD009E801F /* InfoPlist.strings in Resources */,
 				5CD9BFB318972B14001881CA /* controlpad.png in Resources */,
 				5CEBC74C1897933C000DBDF6 /* white-pill.png in Resources */,
+				5CEBC75218979E2D000DBDF6 /* highlighted-pill.png in Resources */,
 				5C59F2D31897526D00FB4023 /* puzzle.png in Resources */,
 				5CC8C2501895C6FD009E801F /* Main.storyboard in Resources */,
 				5CDD0A7018975BDB00A8BD09 /* hangman.png in Resources */,

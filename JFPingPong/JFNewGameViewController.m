@@ -58,19 +58,17 @@ numberOfRowsInComponent:(NSInteger)component {
   return self.userArray.count;
 }
 
-- (NSAttributedString *)pickerView:(UIPickerView *)pickerView attributedTitleForRow:(NSInteger)row forComponent:(NSInteger)component
-{
+- (NSAttributedString *)pickerView:(UIPickerView *)pickerView attributedTitleForRow:(NSInteger)row forComponent:(NSInteger)component {
   NSString *title = self.userArray[row];
-  NSAttributedString *attString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
+  NSAttributedString *attributedString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
   
-  return attString;
-  
+  return attributedString;
 }
 
 - (NSString *)pickerView:(UIPickerView *)pickerView
              titleForRow:(NSInteger)row
             forComponent:(NSInteger)component {
-  return self.userArray[row];
+  return [self.userArray objectAtIndex:row];
 }
 
 @end
