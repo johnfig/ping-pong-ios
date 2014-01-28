@@ -76,7 +76,7 @@ static NSString * const kJFLeaderboardURL = @"http://byliner-ping-pong.herokuapp
   cell.username.text = self.userArray[indexPath.row][@"username"];
   cell.ranking.text = [self.userArray[indexPath.row][@"ranking"][@"ranking"] stringValue];
   cell.score.text = [self.userArray[indexPath.row][@"ranking"][@"score"] stringValue];
-  [cell.image setImageWithURL:imageURL placeholderImage:[UIImage imageNamed:@"pong-default-image"]];
+  [cell.image setImageWithURL:imageURL placeholderImage:[UIImage imageNamed:@"profile-filler"]];
   return cell;
 }
 

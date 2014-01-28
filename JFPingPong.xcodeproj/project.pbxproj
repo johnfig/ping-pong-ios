@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2C6CCEDE6C1542208F8B82E6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB14A882E63D4D3EA5D0D8E6 /* libPods.a */; };
-		5C59F2D31897526D00FB4023 /* puzzle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C59F2D21897526D00FB4023 /* puzzle.png */; };
-		5C59F2D5189752F900FB4023 /* hang.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C59F2D4189752F900FB4023 /* hang.png */; };
 		5CC8C23D1895C6FD009E801F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC8C23C1895C6FD009E801F /* Foundation.framework */; };
 		5CC8C23F1895C6FD009E801F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC8C23E1895C6FD009E801F /* CoreGraphics.framework */; };
 		5CC8C2411895C6FD009E801F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC8C2401895C6FD009E801F /* UIKit.framework */; };
@@ -30,16 +28,11 @@
 		5CC8C29C1897144D009E801F /* JFRanking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8C29B1897144D009E801F /* JFRanking.m */; };
 		5CC8C2A0189714F0009E801F /* JFLeaderboardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8C29F189714F0009E801F /* JFLeaderboardTableViewCell.m */; };
 		5CC8C2A318971E41009E801F /* JFUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8C2A218971E41009E801F /* JFUser.m */; };
-		5CD9BFB118972AD1001881CA /* trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD9BFB018972AD1001881CA /* trophy.png */; };
-		5CD9BFB318972B14001881CA /* controlpad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD9BFB218972B14001881CA /* controlpad.png */; };
-		5CD9BFB518972FA6001881CA /* pong-default-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD9BFB418972FA6001881CA /* pong-default-image.png */; };
-		5CD9BFB918973962001881CA /* robot.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD9BFB818973962001881CA /* robot.png */; };
 		5CDD0A6E1897592E00A8BD09 /* JFPingPong-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CDD0A6D1897592E00A8BD09 /* JFPingPong-Info.plist */; };
-		5CDD0A7018975BDB00A8BD09 /* hangman.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CDD0A6F18975BDB00A8BD09 /* hangman.png */; };
-		5CDD0A741897608200A8BD09 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CDD0A731897608200A8BD09 /* cloud.png */; };
 		5CEBC74C1897933C000DBDF6 /* white-pill.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CEBC74B1897933C000DBDF6 /* white-pill.png */; };
 		5CEBC75018979DC9000DBDF6 /* selected-pill.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CEBC74F18979DC9000DBDF6 /* selected-pill.png */; };
 		5CEBC75218979E2D000DBDF6 /* highlighted-pill.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CEBC75118979E2D000DBDF6 /* highlighted-pill.png */; };
+		5CEBC7541897A190000DBDF6 /* profile-filler.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CEBC7531897A190000DBDF6 /* profile-filler.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +46,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5C59F2D21897526D00FB4023 /* puzzle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puzzle.png; sourceTree = "<group>"; };
-		5C59F2D4189752F900FB4023 /* hang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hang.png; sourceTree = "<group>"; };
 		5CC8C2391895C6FD009E801F /* JFPingPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFPingPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC8C23C1895C6FD009E801F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5CC8C23E1895C6FD009E801F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -84,16 +75,11 @@
 		5CC8C29F189714F0009E801F /* JFLeaderboardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFLeaderboardTableViewCell.m; sourceTree = "<group>"; };
 		5CC8C2A118971E41009E801F /* JFUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFUser.h; sourceTree = "<group>"; };
 		5CC8C2A218971E41009E801F /* JFUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFUser.m; sourceTree = "<group>"; };
-		5CD9BFB018972AD1001881CA /* trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trophy.png; sourceTree = "<group>"; };
-		5CD9BFB218972B14001881CA /* controlpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controlpad.png; sourceTree = "<group>"; };
-		5CD9BFB418972FA6001881CA /* pong-default-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pong-default-image.png"; sourceTree = "<group>"; };
-		5CD9BFB818973962001881CA /* robot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robot.png; sourceTree = "<group>"; };
 		5CDD0A6D1897592E00A8BD09 /* JFPingPong-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JFPingPong-Info.plist"; sourceTree = "<group>"; };
-		5CDD0A6F18975BDB00A8BD09 /* hangman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman.png; sourceTree = "<group>"; };
-		5CDD0A731897608200A8BD09 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
 		5CEBC74B1897933C000DBDF6 /* white-pill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-pill.png"; sourceTree = "<group>"; };
 		5CEBC74F18979DC9000DBDF6 /* selected-pill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected-pill.png"; sourceTree = "<group>"; };
 		5CEBC75118979E2D000DBDF6 /* highlighted-pill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "highlighted-pill.png"; sourceTree = "<group>"; };
+		5CEBC7531897A190000DBDF6 /* profile-filler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-filler.png"; sourceTree = "<group>"; };
 		B4EBAB5FD2FD46CD9E2AFA31 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		CB14A882E63D4D3EA5D0D8E6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -240,17 +226,8 @@
 		5CC8C2921897114C009E801F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5CEBC75118979E2D000DBDF6 /* highlighted-pill.png */,
-				5CEBC74F18979DC9000DBDF6 /* selected-pill.png */,
-				5CEBC74B1897933C000DBDF6 /* white-pill.png */,
-				5CDD0A731897608200A8BD09 /* cloud.png */,
-				5CDD0A6F18975BDB00A8BD09 /* hangman.png */,
-				5C59F2D4189752F900FB4023 /* hang.png */,
-				5C59F2D21897526D00FB4023 /* puzzle.png */,
-				5CD9BFB818973962001881CA /* robot.png */,
-				5CD9BFB418972FA6001881CA /* pong-default-image.png */,
-				5CD9BFB218972B14001881CA /* controlpad.png */,
-				5CD9BFB018972AD1001881CA /* trophy.png */,
+				5CEBC7561897A22A000DBDF6 /* New Game */,
+				5CEBC7551897A1F6000DBDF6 /* Leaderboard */,
 				5CC8C2571895C6FE009E801F /* Images.xcassets */,
 			);
 			name = Resources;
@@ -274,6 +251,24 @@
 				5CC8C29F189714F0009E801F /* JFLeaderboardTableViewCell.m */,
 			);
 			name = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		5CEBC7551897A1F6000DBDF6 /* Leaderboard */ = {
+			isa = PBXGroup;
+			children = (
+				5CEBC7531897A190000DBDF6 /* profile-filler.png */,
+			);
+			name = Leaderboard;
+			sourceTree = "<group>";
+		};
+		5CEBC7561897A22A000DBDF6 /* New Game */ = {
+			isa = PBXGroup;
+			children = (
+				5CEBC75118979E2D000DBDF6 /* highlighted-pill.png */,
+				5CEBC74F18979DC9000DBDF6 /* selected-pill.png */,
+				5CEBC74B1897933C000DBDF6 /* white-pill.png */,
+			);
+			name = "New Game";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,20 +351,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CC8C2581895C6FE009E801F /* Images.xcassets in Resources */,
+				5CEBC7541897A190000DBDF6 /* profile-filler.png in Resources */,
 				5CEBC75018979DC9000DBDF6 /* selected-pill.png in Resources */,
-				5CD9BFB518972FA6001881CA /* pong-default-image.png in Resources */,
 				5CDD0A6E1897592E00A8BD09 /* JFPingPong-Info.plist in Resources */,
-				5CDD0A741897608200A8BD09 /* cloud.png in Resources */,
-				5C59F2D5189752F900FB4023 /* hang.png in Resources */,
 				5CC8C2471895C6FD009E801F /* InfoPlist.strings in Resources */,
-				5CD9BFB318972B14001881CA /* controlpad.png in Resources */,
 				5CEBC74C1897933C000DBDF6 /* white-pill.png in Resources */,
 				5CEBC75218979E2D000DBDF6 /* highlighted-pill.png in Resources */,
-				5C59F2D31897526D00FB4023 /* puzzle.png in Resources */,
 				5CC8C2501895C6FD009E801F /* Main.storyboard in Resources */,
-				5CDD0A7018975BDB00A8BD09 /* hangman.png in Resources */,
-				5CD9BFB918973962001881CA /* robot.png in Resources */,
-				5CD9BFB118972AD1001881CA /* trophy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
