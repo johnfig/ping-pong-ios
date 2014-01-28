@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JFNewGameViewController : UIViewController
+@interface JFNewGameViewController : UIViewController<UIPickerViewDataSource, UIPickerViewDelegate>
 
 @end

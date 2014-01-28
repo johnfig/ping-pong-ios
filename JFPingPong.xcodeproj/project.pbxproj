@@ -46,7 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5CC8C2391895C6FD009E801F /* JFPingPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFPingPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC8C2391895C6FD009E801F /* Byliner Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Byliner Pong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC8C23C1895C6FD009E801F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5CC8C23E1895C6FD009E801F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5CC8C2401895C6FD009E801F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -123,7 +123,7 @@
 		5CC8C23A1895C6FD009E801F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5CC8C2391895C6FD009E801F /* JFPingPong.app */,
+				5CC8C2391895C6FD009E801F /* Byliner Pong.app */,
 				5CC8C25D1895C6FE009E801F /* JFPingPongTests.xctest */,
 			);
 			name = Products;
@@ -290,7 +290,7 @@
 			);
 			name = JFPingPong;
 			productName = JFPingPong;
-			productReference = 5CC8C2391895C6FD009E801F /* JFPingPong.app */;
+			productReference = 5CC8C2391895C6FD009E801F /* Byliner Pong.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5CC8C25C1895C6FE009E801F /* JFPingPongTests */ = {
@@ -548,7 +548,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JFPingPong/JFPingPong-Prefix.pch";
 				INFOPLIST_FILE = "JFPingPong/JFPingPong-Info.plist";
-				PRODUCT_NAME = JFPingPong;
+				PRODUCT_NAME = "Byliner Pong";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -562,7 +562,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JFPingPong/JFPingPong-Prefix.pch";
 				INFOPLIST_FILE = "JFPingPong/JFPingPong-Info.plist";
-				PRODUCT_NAME = JFPingPong;
+				PRODUCT_NAME = "Byliner Pong";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

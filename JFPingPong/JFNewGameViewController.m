@@ -15,22 +15,26 @@ static NSString * const kJFLeaderboardURL = @"http://byliner-ping-pong.herokuapp
 
 @interface JFNewGameViewController ()
 @property (copy, nonatomic) NSArray *userArray;
-@property (weak, nonatomic) IBOutlet UIPickerView *winnerPicker;
-@property (weak, nonatomic) IBOutlet UIPickerView *loserPicker;
+@property (weak, nonatomic) IBOutlet UIPickerView *picker;
 @end
 
 @implementation JFNewGameViewController
 
 - (void)viewDidLoad {
   [super viewDidLoad];
+  self.picker.dataSource = self;
+  self.picker.delegate = self;
   self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.384 green:0.608 blue:0.710 alpha:1.0];
-  self.userArray = @[@"John", @"Steve", @"Larry", @"Jeff"];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
   AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
   [manager GET:kJFLeaderboardURL parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
     self.userArray = responseObject;
+    [self.picker reloadAllComponents];
+    NSInteger middleCount = self.userArray.count/2;
+    [self.picker selectRow:middleCount inComponent:0 animated:YES];
+    [self.picker selectRow:middleCount inComponent:1 animated:YES];
     NSLog(@"JSON: %@", self.userArray);
   } failure:^(NSURLSessionDataTask *task, NSError *error) {
     NSLog(@"Error: %@", error);
@@ -59,9 +63,8 @@ numberOfRowsInComponent:(NSInteger)component {
 }
 
 - (NSAttributedString *)pickerView:(UIPickerView *)pickerView attributedTitleForRow:(NSInteger)row forComponent:(NSInteger)component {
-  NSString *title = self.userArray[row];
+  NSString *title = self.userArray[row][@"username"];
   NSAttributedString *attributedString = [[NSAttributedString alloc] initWithString:title attributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
-  
   return attributedString;
 }
 
