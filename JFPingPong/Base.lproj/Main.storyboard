@@ -224,7 +224,7 @@
         <scene sceneID="PYB-dx-YhR">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dB1-3d-zgA" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Leaderboard" image="hang.png" id="u1e-5L-l1D"/>
+                    <tabBarItem key="tabBarItem" title="Leaderboard" image="star" id="u1e-5L-l1D"/>
                     <toolbarItems/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aW5-Xk-g5t">
@@ -244,7 +244,7 @@
         <scene sceneID="pec-j0-tUM">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0xc-dh-jlk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="New Game" image="Bookmarks" id="Z7h-1E-pvt"/>
+                    <tabBarItem key="tabBarItem" title="New Game" image="pingpong" id="Z7h-1E-pvt"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Jr0-Ia-K0J">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -261,9 +261,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Bookmarks" width="256" height="256"/>
-        <image name="hang.png" width="25" height="25"/>
+        <image name="pingpong" width="25" height="25"/>
         <image name="pong-default-image.png" width="256" height="256"/>
+        <image name="star" width="25" height="25"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

@@ -35,6 +35,8 @@
 		5CD9BFB518972FA6001881CA /* pong-default-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD9BFB418972FA6001881CA /* pong-default-image.png */; };
 		5CD9BFB918973962001881CA /* robot.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD9BFB818973962001881CA /* robot.png */; };
 		5CDD0A6E1897592E00A8BD09 /* JFPingPong-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CDD0A6D1897592E00A8BD09 /* JFPingPong-Info.plist */; };
+		5CDD0A7018975BDB00A8BD09 /* hangman.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CDD0A6F18975BDB00A8BD09 /* hangman.png */; };
+		5CDD0A741897608200A8BD09 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CDD0A731897608200A8BD09 /* cloud.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +86,8 @@
 		5CD9BFB418972FA6001881CA /* pong-default-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pong-default-image.png"; sourceTree = "<group>"; };
 		5CD9BFB818973962001881CA /* robot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robot.png; sourceTree = "<group>"; };
 		5CDD0A6D1897592E00A8BD09 /* JFPingPong-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JFPingPong-Info.plist"; sourceTree = "<group>"; };
+		5CDD0A6F18975BDB00A8BD09 /* hangman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman.png; sourceTree = "<group>"; };
+		5CDD0A731897608200A8BD09 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
 		B4EBAB5FD2FD46CD9E2AFA31 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		CB14A882E63D4D3EA5D0D8E6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -230,6 +234,8 @@
 		5CC8C2921897114C009E801F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5CDD0A731897608200A8BD09 /* cloud.png */,
+				5CDD0A6F18975BDB00A8BD09 /* hangman.png */,
 				5C59F2D4189752F900FB4023 /* hang.png */,
 				5C59F2D21897526D00FB4023 /* puzzle.png */,
 				5CD9BFB818973962001881CA /* robot.png */,
@@ -343,11 +349,13 @@
 				5CC8C2581895C6FE009E801F /* Images.xcassets in Resources */,
 				5CD9BFB518972FA6001881CA /* pong-default-image.png in Resources */,
 				5CDD0A6E1897592E00A8BD09 /* JFPingPong-Info.plist in Resources */,
+				5CDD0A741897608200A8BD09 /* cloud.png in Resources */,
 				5C59F2D5189752F900FB4023 /* hang.png in Resources */,
 				5CC8C2471895C6FD009E801F /* InfoPlist.strings in Resources */,
 				5CD9BFB318972B14001881CA /* controlpad.png in Resources */,
 				5C59F2D31897526D00FB4023 /* puzzle.png in Resources */,
 				5CC8C2501895C6FD009E801F /* Main.storyboard in Resources */,
+				5CDD0A7018975BDB00A8BD09 /* hangman.png in Resources */,
 				5CD9BFB918973962001881CA /* robot.png in Resources */,
 				5CD9BFB118972AD1001881CA /* trophy.png in Resources */,
 			);

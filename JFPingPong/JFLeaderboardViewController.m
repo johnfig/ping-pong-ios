@@ -27,7 +27,7 @@ static NSString * const kJFLeaderboardURL = @"http://byliner-ping-pong.herokuapp
   [super viewDidLoad];
   self.table.dataSource = self;
   self.table.delegate = self;
-  self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.384 green:0.608 blue:0.710 alpha:1.0];
+  self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.384 green:0.608 blue:0.710 alpha:0.8];
   NSDictionary *settings = @{
                              NSFontAttributeName            :  [UIFont fontWithName:@"HelveticaNeue" size:20.0],
                              NSForegroundColorAttributeName :  [UIColor whiteColor]};
