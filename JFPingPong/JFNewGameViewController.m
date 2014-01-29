@@ -9,13 +9,17 @@
 #import "JFNewGameViewController.h"
 #import <AFNetworking.h>
 #import "JFHTTPClient.h"
+#import "SVProgressHUD.h"
 
 static NSString * const kJFUserData = @"user";
-static NSString * const kJFLeaderboardURL = @"http://byliner-ping-pong.herokuapp.com/api/v1/leaderboard.json";
+static NSString * const kJFLeaderboardURL = @"http://localhost:3000/api/v1/leaderboard.json";
+static NSString * const kJFGameURL = @"http://localhost:3000/api/v1/games";
 
 @interface JFNewGameViewController ()
 @property (copy, nonatomic) NSArray *userArray;
 @property (weak, nonatomic) IBOutlet UIPickerView *picker;
+@property (nonatomic) NSString *winnerID;
+@property (nonatomic) NSString *loserID;
 @end
 
 @implementation JFNewGameViewController
@@ -47,7 +51,20 @@ static NSString * const kJFLeaderboardURL = @"http://byliner-ping-pong.herokuapp
 
 #pragma mark - IBActions
 - (IBAction)logGameButtonPressed:(id)sender {
-  NSLog(@"Hello World");
+  AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+//  This is hard coded and needs to have values from picker
+  NSDictionary *gameDictionary = @{ @"winner_id": self.winnerID, @"loser_id": self.loserID };
+  [manager POST:kJFGameURL parameters:gameDictionary constructingBodyWithBlock:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+    if ([responseObject[@"failure"]  isEqualToString:@"failure"]) {
+      [SVProgressHUD showErrorWithStatus:@"Uh oh! This game wasn't Logged!"];
+    } else if ([responseObject[@"success"]  isEqualToString:@"success"]) {
+      [SVProgressHUD showSuccessWithStatus:@"You logged a game!"];
+      self.tabBarController.selectedViewController = [self.tabBarController.viewControllers objectAtIndex:0];;
+    }
+    NSLog(@"JSON: %@, loser_id: %@, winner_id: %@", responseObject, self.loserID, self.winnerID);
+  } failure:^(NSURLSessionDataTask *task, NSError *error) {
+    NSLog(@"Error: %@", error);
+  }];
 }
 
 
@@ -72,6 +89,16 @@ numberOfRowsInComponent:(NSInteger)component {
              titleForRow:(NSInteger)row
             forComponent:(NSInteger)component {
   return [self.userArray objectAtIndex:row];
+}
+
+- (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
+  if (component == 0) {
+    NSString *winner = [self.userArray[row][@"ranking"][@"user_id"] stringValue];
+    self.winnerID = winner;
+  } else {
+    NSString *loser = [self.userArray[row][@"ranking"][@"user_id"] stringValue];
+    self.loserID = loser;
+  }
 }
 
 @end

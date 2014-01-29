@@ -14,7 +14,7 @@
 #import "UIScrollView+SVPullToRefresh.h"
 
 static NSString * const kJFUserData = @"user";
-static NSString * const kJFLeaderboardURL = @"http://byliner-ping-pong.herokuapp.com/api/v1/leaderboard.json";
+static NSString * const kJFLeaderboardURL = @"http://localhost:3000/api/v1/leaderboard.json";
 
 @interface JFLeaderboardViewController ()
 @property (copy, nonatomic) NSArray *userArray;
