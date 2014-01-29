@@ -14,12 +14,12 @@
 #import "UIScrollView+SVPullToRefresh.h"
 
 static NSString * const kJFUserData = @"user";
-static NSString * const kJFLeaderboardURL = @"http://localhost:3000/api/v1/leaderboard.json";
+static NSString * const kJFLeaderboardURL = @"http://byliner-ping-pong.herokuapp.com/api/v1/leaderboard.json";
 
 @interface JFLeaderboardViewController ()
 @property (copy, nonatomic) NSArray *userArray;
 @property (weak, nonatomic) IBOutlet UITableView *table;
-
+@property (nonatomic) BOOL pullToRefresh;
 @end
 
 @implementation JFLeaderboardViewController
@@ -34,22 +34,26 @@ static NSString * const kJFLeaderboardURL = @"http://localhost:3000/api/v1/leade
                              NSForegroundColorAttributeName :  [UIColor whiteColor]};
   
   [[UINavigationBar appearance] setTitleTextAttributes:settings];
-  
   [self.table addPullToRefreshWithActionHandler:^{
     [self viewWillAppear:NO];
   }];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
+  if (self.pullToRefresh == NO) {
+    self.table.showsPullToRefresh = NO;
+  } 
   AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
   [manager GET:kJFLeaderboardURL parameters:nil success:^(NSURLSessionDataTask *task, id responseObject) {
     self.userArray = responseObject;
     NSLog(@"JSON: %@", self.userArray);
     [self.table reloadData];
     [self.table.pullToRefreshView stopAnimating];
+    self.table.showsPullToRefresh = YES;
   } failure:^(NSURLSessionDataTask *task, NSError *error) {
     NSLog(@"Error: %@", error);
   }];
+  self.pullToRefresh = YES;
 }
 
 - (void)viewDidAppear:(BOOL)animated {

@@ -12,8 +12,8 @@
 #import "SVProgressHUD.h"
 
 static NSString * const kJFUserData = @"user";
-static NSString * const kJFLeaderboardURL = @"http://localhost:3000/api/v1/leaderboard.json";
-static NSString * const kJFGameURL = @"http://localhost:3000/api/v1/games";
+static NSString * const kJFLeaderboardURL = @"http://byliner-ping-pong.herokuapp.com/api/v1/leaderboard.json";
+static NSString * const kJFGameURL = @"http://byliner-ping-pong.herokuapp.com/api/v1/games";
 
 @interface JFNewGameViewController ()
 @property (copy, nonatomic) NSArray *userArray;
@@ -60,9 +60,9 @@ static NSString * const kJFGameURL = @"http://localhost:3000/api/v1/games";
   NSDictionary *gameDictionary = @{ @"winner_id": self.winnerID, @"loser_id": self.loserID };
   [manager POST:kJFGameURL parameters:gameDictionary constructingBodyWithBlock:nil success:^(NSURLSessionDataTask *task, id responseObject) {
     if ([responseObject[@"failure"]  isEqualToString:@"failure"]) {
-      [SVProgressHUD showErrorWithStatus:@"Uh oh! This game wasn't Logged!"];
+      [SVProgressHUD showErrorWithStatus:@"Can't play yourself BRO!"];
     } else if ([responseObject[@"success"]  isEqualToString:@"success"]) {
-      [SVProgressHUD showSuccessWithStatus:@"You logged a game!"];
+      [SVProgressHUD showSuccessWithStatus:@"BOOM! You logged a game!"];
       self.tabBarController.selectedViewController = [self.tabBarController.viewControllers objectAtIndex:0];;
     }
     NSLog(@"JSON: %@, loser_id: %@, winner_id: %@", responseObject, self.loserID, self.winnerID);

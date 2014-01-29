@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5CC8C2381895C6FD009E801F"
-               BuildableName = "JFPingPong.app"
+               BuildableName = "Byliner Pong.app"
                BlueprintName = "JFPingPong"
                ReferencedContainer = "container:JFPingPong.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5CC8C2381895C6FD009E801F"
-            BuildableName = "JFPingPong.app"
+            BuildableName = "Byliner Pong.app"
             BlueprintName = "JFPingPong"
             ReferencedContainer = "container:JFPingPong.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5CC8C2381895C6FD009E801F"
-            BuildableName = "JFPingPong.app"
+            BuildableName = "Byliner Pong.app"
             BlueprintName = "JFPingPong"
             ReferencedContainer = "container:JFPingPong.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5CC8C2381895C6FD009E801F"
-            BuildableName = "JFPingPong.app"
+            BuildableName = "Byliner Pong.app"
             BlueprintName = "JFPingPong"
             ReferencedContainer = "container:JFPingPong.xcodeproj">
          </BuildableReference>
