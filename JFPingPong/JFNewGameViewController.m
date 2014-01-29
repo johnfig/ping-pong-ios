@@ -28,6 +28,10 @@ static NSString * const kJFGameURL = @"http://localhost:3000/api/v1/games";
   [super viewDidLoad];
   self.picker.dataSource = self;
   self.picker.delegate = self;
+  
+//  This is bad. I just did this to keep the app from crashing to preset winner id.
+  self.winnerID = @"0";
+  self.loserID = @"0";
   self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.384 green:0.608 blue:0.710 alpha:1.0];
 }
 
