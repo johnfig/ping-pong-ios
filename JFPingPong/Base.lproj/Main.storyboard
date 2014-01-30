@@ -244,6 +244,7 @@
                     <tabBarItem key="tabBarItem" title="Leaderboard" image="star" id="u1e-5L-l1D"/>
                     <toolbarItems/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aW5-Xk-g5t">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -263,6 +264,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0xc-dh-jlk" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="New Game" image="pingpong" id="Z7h-1E-pvt"/>
                     <toolbarItems/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Jr0-Ia-K0J">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

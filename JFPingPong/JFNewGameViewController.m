@@ -1,5 +1,5 @@
 //
-//  JFPingPongSecondViewController.m
+//  JFNewGameViewController.m
 //  JFPingPong
 //
 //  Created by John Figueiredo on 1/26/14.
