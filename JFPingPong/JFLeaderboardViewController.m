@@ -12,12 +12,12 @@
 #import "JFHTTPClient.h"
 #import <UIImageView+WebCache.h>
 #import "UIScrollView+SVPullToRefresh.h"
+#import "JFUserProfileViewController.h"
 
 static NSString * const kJFUserData = @"user";
 static NSString * const kJFLeaderboardURL = @"http://byliner-ping-pong.herokuapp.com/api/v1/leaderboard.json";
 
 @interface JFLeaderboardViewController ()
-@property (copy, nonatomic) NSArray *userArray;
 @property (weak, nonatomic) IBOutlet UITableView *table;
 @property (nonatomic) BOOL pullToRefresh;
 @end
@@ -84,4 +84,9 @@ static NSString * const kJFLeaderboardURL = @"http://byliner-ping-pong.herokuapp
   return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+  JFUserProfileViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:@"JFUserProfileViewController"];
+  viewController.userProfile = self.userArray[indexPath.row];
+  [self.navigationController pushViewController:viewController animated:YES];
+}
 @end

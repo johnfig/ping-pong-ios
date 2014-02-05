@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2C6CCEDE6C1542208F8B82E6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB14A882E63D4D3EA5D0D8E6 /* libPods.a */; };
+		5C7C0D05189F1CA60044F6A2 /* FIGUserProfile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C7C0D04189F1CA60044F6A2 /* FIGUserProfile.xib */; };
+		5C7C0D08189F207C0044F6A2 /* JFUserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7C0D07189F207C0044F6A2 /* JFUserProfileViewController.m */; };
 		5CC8C23D1895C6FD009E801F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC8C23C1895C6FD009E801F /* Foundation.framework */; };
 		5CC8C23F1895C6FD009E801F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC8C23E1895C6FD009E801F /* CoreGraphics.framework */; };
 		5CC8C2411895C6FD009E801F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC8C2401895C6FD009E801F /* UIKit.framework */; };
@@ -46,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C7C0D04189F1CA60044F6A2 /* FIGUserProfile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FIGUserProfile.xib; sourceTree = "<group>"; };
+		5C7C0D06189F207C0044F6A2 /* JFUserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFUserProfileViewController.h; sourceTree = "<group>"; };
+		5C7C0D07189F207C0044F6A2 /* JFUserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFUserProfileViewController.m; sourceTree = "<group>"; };
 		5CC8C2391895C6FD009E801F /* Byliner Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Byliner Pong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC8C23C1895C6FD009E801F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5CC8C23E1895C6FD009E801F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -202,6 +207,8 @@
 				5CC8C2521895C6FD009E801F /* JFLeaderboardViewController.m */,
 				5CC8C2541895C6FE009E801F /* JFNewGameViewController.h */,
 				5CC8C2551895C6FE009E801F /* JFNewGameViewController.m */,
+				5C7C0D06189F207C0044F6A2 /* JFUserProfileViewController.h */,
+				5C7C0D07189F207C0044F6A2 /* JFUserProfileViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -219,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				5CC8C24E1895C6FD009E801F /* Main.storyboard */,
+				5C7C0D04189F1CA60044F6A2 /* FIGUserProfile.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -359,6 +367,7 @@
 				5CDD0A6E1897592E00A8BD09 /* JFPingPong-Info.plist in Resources */,
 				5CC8C2471895C6FD009E801F /* InfoPlist.strings in Resources */,
 				5CEBC74C1897933C000DBDF6 /* white-pill.png in Resources */,
+				5C7C0D05189F1CA60044F6A2 /* FIGUserProfile.xib in Resources */,
 				5CEBC75218979E2D000DBDF6 /* highlighted-pill.png in Resources */,
 				5CC8C2501895C6FD009E801F /* Main.storyboard in Resources */,
 			);
@@ -415,6 +424,7 @@
 				5CC8C29C1897144D009E801F /* JFRanking.m in Sources */,
 				5CC8C2561895C6FE009E801F /* JFNewGameViewController.m in Sources */,
 				5CC8C2531895C6FE009E801F /* JFLeaderboardViewController.m in Sources */,
+				5C7C0D08189F207C0044F6A2 /* JFUserProfileViewController.m in Sources */,
 				5CC8C27A189619C2009E801F /* JFHTTPClient.m in Sources */,
 				5CC8C27E1896E3F3009E801F /* JFPingPong.xcdatamodeld in Sources */,
 				5CC8C2A0189714F0009E801F /* JFLeaderboardTableViewCell.m in Sources */,

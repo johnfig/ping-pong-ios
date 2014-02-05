@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface JFLeaderboardViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
-
+@property (copy, nonatomic) NSArray *userArray;
 @end

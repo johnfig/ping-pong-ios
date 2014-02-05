@@ -129,6 +129,91 @@
             </objects>
             <point key="canvasLocation" x="1133" y="-138"/>
         </scene>
+        <!--User Profile View Controller-->
+        <scene sceneID="Zog-tw-LhL">
+            <objects>
+                <viewController storyboardIdentifier="JFUserProfileViewController" id="IVp-h6-Tet" customClass="JFUserProfileViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DmI-2l-R8e"/>
+                        <viewControllerLayoutGuide type="bottom" id="kXd-Od-g8A"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="slF-NB-jbP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile-filler.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tu6-tM-M3N">
+                                <rect key="frame" x="77" y="123" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="PD8-Ag-z4Z"/>
+                                    <constraint firstAttribute="height" constant="150" id="duV-PF-L8B"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOi-Jn-cOS">
+                                <rect key="frame" x="133" y="282" width="43" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ranking" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9M-aK-u59">
+                                <rect key="frame" x="151" y="311" width="59" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62U-Y8-Ses">
+                                <rect key="frame" x="20" y="79" width="280" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ranking:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fs-Ew-poX">
+                                <rect key="frame" x="77" y="310" width="69" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IE2-Ej-gBj">
+                                <rect key="frame" x="77" y="281" width="58" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.38431372549999998" green="0.60784313729999995" blue="0.70980392160000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Tu6-tM-M3N" firstAttribute="top" secondItem="62U-Y8-Ses" secondAttribute="bottom" constant="20" id="6FA-eQ-bYN"/>
+                            <constraint firstItem="8fs-Ew-poX" firstAttribute="top" secondItem="IE2-Ej-gBj" secondAttribute="bottom" constant="8" symbolic="YES" id="6Vg-ZU-mWl"/>
+                            <constraint firstItem="8fs-Ew-poX" firstAttribute="leading" secondItem="IE2-Ej-gBj" secondAttribute="leading" id="KMm-D7-l5w"/>
+                            <constraint firstAttribute="trailing" secondItem="62U-Y8-Ses" secondAttribute="trailing" constant="20" symbolic="YES" id="L5H-S3-Dhx"/>
+                            <constraint firstItem="Tu6-tM-M3N" firstAttribute="leading" secondItem="slF-NB-jbP" secondAttribute="leading" constant="77" id="MFE-DC-3qg"/>
+                            <constraint firstItem="LOi-Jn-cOS" firstAttribute="baseline" secondItem="IE2-Ej-gBj" secondAttribute="baseline" id="Oty-9T-mn5"/>
+                            <constraint firstItem="IE2-Ej-gBj" firstAttribute="leading" secondItem="Tu6-tM-M3N" secondAttribute="leading" id="VaR-2H-tu3"/>
+                            <constraint firstItem="62U-Y8-Ses" firstAttribute="leading" secondItem="slF-NB-jbP" secondAttribute="leading" constant="20" symbolic="YES" id="bYA-Vi-d5S"/>
+                            <constraint firstItem="f9M-aK-u59" firstAttribute="leading" secondItem="8fs-Ew-poX" secondAttribute="trailing" constant="5" id="hUZ-oZ-mSH"/>
+                            <constraint firstItem="LOi-Jn-cOS" firstAttribute="leading" secondItem="IE2-Ej-gBj" secondAttribute="trailing" constant="-2" id="m1b-7k-6zt"/>
+                            <constraint firstItem="Tu6-tM-M3N" firstAttribute="top" secondItem="DmI-2l-R8e" secondAttribute="bottom" constant="103" id="n8b-qf-rgL"/>
+                            <constraint firstItem="IE2-Ej-gBj" firstAttribute="top" secondItem="Tu6-tM-M3N" secondAttribute="bottom" constant="8" symbolic="YES" id="sc4-Dj-jU4"/>
+                            <constraint firstItem="LOi-Jn-cOS" firstAttribute="leading" secondItem="f9M-aK-u59" secondAttribute="leading" constant="-18" id="t2R-Qx-dre"/>
+                            <constraint firstItem="8fs-Ew-poX" firstAttribute="baseline" secondItem="f9M-aK-u59" secondAttribute="baseline" id="wHK-Ty-Gdg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fullName" destination="62U-Y8-Ses" id="9gB-2c-zWp"/>
+                        <outlet property="image" destination="Tu6-tM-M3N" id="u1R-LO-9Sp"/>
+                        <outlet property="ranking" destination="f9M-aK-u59" id="ZY4-fI-diE"/>
+                        <outlet property="score" destination="LOi-Jn-cOS" id="vx2-rX-Y9C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CO4-yh-O9y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1537" y="-138"/>
+        </scene>
         <!--New Game View Controller - Second-->
         <scene sceneID="ot8-2e-RuS">
             <objects>
