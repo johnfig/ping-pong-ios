@@ -12,8 +12,8 @@
 #import "SVProgressHUD.h"
 
 static NSString * const kJFUserData = @"user";
-static NSString * const kJFLeaderboardURL = @"http://byliner-ping-pong.herokuapp.com/api/v1/leaderboard.json";
-static NSString * const kJFGameURL = @"http://byliner-ping-pong.herokuapp.com/api/v1/games";
+static NSString * const kJFLeaderboardURL = @"https://byliner-ping-pong.herokuapp.com/api/v1/leaderboard.json";
+static NSString * const kJFGameURL = @"https://byliner-ping-pong.herokuapp.com/api/v1/games";
 
 @interface JFNewGameViewController ()
 @property (copy, nonatomic) NSArray *userArray;

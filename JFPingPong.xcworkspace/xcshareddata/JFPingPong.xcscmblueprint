@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "12B2496CFE2CD8CA63E1BA6126D7DA52E9C641BE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C0D8EF86A604B55BCA689D5F426B4B6E73B85FFB" : 0,
+    "12B2496CFE2CD8CA63E1BA6126D7DA52E9C641BE" : 0,
+    "6E9FFA6E-F928-4789-82F9-43BE3E266F0A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "14EEA784-040D-4C33-903C-2D52CE07A9D8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C0D8EF86A604B55BCA689D5F426B4B6E73B85FFB" : "",
+    "12B2496CFE2CD8CA63E1BA6126D7DA52E9C641BE" : "ping-pong-ios\/",
+    "6E9FFA6E-F928-4789-82F9-43BE3E266F0A" : "JFPingPong"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "JFPingPong",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "JFPingPong.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/johnfig\/ping-pong-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "12B2496CFE2CD8CA63E1BA6126D7DA52E9C641BE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/github.com\/johnfig\/ping-pong-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6E9FFA6E-F928-4789-82F9-43BE3E266F0A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:johnfig\/mongoid.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C0D8EF86A604B55BCA689D5F426B4B6E73B85FFB"
+    }
+  ]
+}
